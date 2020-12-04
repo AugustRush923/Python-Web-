@@ -19,7 +19,7 @@ if __name__ == '__main__':
         print(recv_data)
 
         # 打开文件
-        with open('static/login.html', 'r') as file:
+        with open('static/index.html', 'r') as file:
             file_data = file.read()
 
         # 响应行
